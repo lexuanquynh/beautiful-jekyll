@@ -1,10 +1,6 @@
 {% if layout.common-ext-js %}
   {% for js in layout.common-ext-js %}
-<<<<<<< ours
-	<script src="{{ js }}"></script>
-=======
     {% include ext-js.html js=js %}
->>>>>>> theirs
   {% endfor %}
 {% endif %}
 

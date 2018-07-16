@@ -1,18 +1,10 @@
 {% capture before %}{{ include.link[1] | split: "://" | first }}{% endcapture %}
-<<<<<<< ours
-{% capture after %}{{ include.link[1] | split: "://" | last }}{% endcapture %}            
-=======
 {% capture after %}{{ include.link[1] | split: "://" | last }}{% endcapture %}
->>>>>>> theirs
 {% assign internal = true %}
 {% if before != after %}
   {% if before == "http" or before == "https" %}
     {% assign internal = false %}
-<<<<<<< ours
-  {% endif %}  
-=======
   {% endif %}
->>>>>>> theirs
 {% endif %}
 
 {% if internal %}
