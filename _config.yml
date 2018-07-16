@@ -23,7 +23,7 @@ description: I'm a programmer, I have no life!
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About Me: "https://lexuanquynh.github.io/2015-02-28-test-markdown/"
   Video hướng dẫn C++:
     - Youtobe Chanel: "https://www.youtube.com/channel/UCvBq4KkFJntBMa2BnURPjHQ"
     - Facebook fanpage: "https://www.facebook.com/laptrinhvuilam/"
